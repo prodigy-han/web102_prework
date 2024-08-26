@@ -28,7 +28,7 @@ Here's a walkthrough of implemented features:
 
 <img src='https://github.com/prodigy-han/web102_prework/blob/main/SeaMonster.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with LiceCap
+GIF created with ScreenToGif
 
 ## Notes
 
