@@ -191,3 +191,19 @@ if (runnerUp) {
     runnerUpElement.textContent = runnerUp.name;
     secondGameContainer.appendChild(runnerUpElement);
 }
+
+// Function to filter games by search query
+function filterGamesBySearch(query) {
+    deleteChildElements(gamesContainer);
+
+    const searchQuery = query.toLowerCase();
+    const filteredGames = GAMES_JSON.filter(game => game.name.toLowerCase().includes(searchQuery));
+
+    addGamesToPage(filteredGames);
+}
+
+// Get the search bar element and add an event listener
+const searchBar = document.getElementById("search-bar");
+searchBar.addEventListener("input", () => {
+    filterGamesBySearch(searchBar.value);
+});
