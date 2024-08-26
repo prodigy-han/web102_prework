@@ -2,7 +2,7 @@
 
 Submitted by: Han Htoo Satt
 
-Sea Monster is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+**Sea Monster** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
 Time spent: 7 hours spent in total
 
@@ -17,7 +17,10 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [x] Search bar feature added for the user to search for any specific game
+* [x] Added a nav bar at the top of the page to get to sections quickly
+* [x] Optimized the filter buttons to be more responsive
+* [x] Re-arranged spacing and texts for visual convenience 
 
 ## Video Walkthrough
 
@@ -25,20 +28,15 @@ Here's a walkthrough of implemented features:
 
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+GIF created with LiceCap
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Encountered multiple challenges along the way. The most remarkable one is trying to open with live server 😆
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2024] [Han Htoo Satt]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
